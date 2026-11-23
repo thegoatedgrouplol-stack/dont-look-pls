@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "vexbot.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArgumentTypeInfosMixin",
+    "CommandSourceStackMixin",
+    "ExampleMixin",
+    "ItemPickupMixin",
+    "KitPotionSplashMixin",
+    "LegacyCommandRewriteMixin",
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "StatsBlockBreakMixin",
+    "StatsBlockItemMixin",
+    "StatsCommandsMixin",
+    "TridentItemMixin",
+    "compat.TrinketsEntitySlotLoaderMixin"
+  ],
+  "client": [
+    "SplashManagerMixin",
+    "ChatScreenMixin",
+    "GameRendererMixin",
+    "GameRendererAccessor",
+    "MinecraftRenderTargetAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

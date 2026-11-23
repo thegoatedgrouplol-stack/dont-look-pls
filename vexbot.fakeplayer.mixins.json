@@ -1,0 +1,41 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "mixinextras": {
+    "minVersion": "0.5.0"
+  },
+  "package": "vexbot.fakeplayer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractBoatMixin",
+    "ChunkMapSpawnMixin",
+    "ServerWaypointManagerMixin",
+    "BlockMixin",
+    "BlocksAttacksMixin",
+    "CachedUserNameToIdResolverMixin",
+    "ChunkMapAccessor",
+    "ConnectionAccessor",
+    "CooldownInstanceInterface",
+    "EntityDataAccessorMixin",
+    "EntityMixin",
+    "ExperienceOrbMixin",
+    "ItemCooldownsInterface",
+    "LivingEntityAccessor",
+    "LivingEntityMixin",
+    "PlayerAccessor",
+    "PlayerListMixin",
+    "PistonMovingBlockEntityMixin",
+    "ProjectileMixin",
+    "ServerCommonPacketListenerImplAccessor",
+    "ServerExplosionMixin",
+    "ServerPlayerAccessor",
+    "ServerPlayerMixin",
+    "WindChargeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
